@@ -1,6 +1,6 @@
 # Feel Good
 
-Link to project: https://dilinar.github.io/feel-good-app/
+Link to project: https://dilinar.github.io/feel_good_app/
 
 Having a rough day? Could use some kind words to lift Your spirit? And there is a lock down in effect so You can't go out to meet Your friends? 
 
