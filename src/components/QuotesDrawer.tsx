@@ -16,7 +16,7 @@ import { QuoteData } from '../types/quoteData';
 /* Application files */
 import Quote from './Quote';
 import Drawer from '@material-ui/core/Drawer';
-import Backdrop from '@material-ui/core/Backdrop'
+import Backdrop from '@material-ui/core/Backdrop';
 
 const useStyles = makeStyles(() =>
     createStyles({
