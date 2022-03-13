@@ -10,13 +10,15 @@ import {
 } from '@material-ui/core/styles';
 
 /* Types */
-import { ReduxState } from '../types/Redux';
-import { QuoteData } from '../types/quoteData';
+import { ReduxState } from '../../types/Redux';
+import { QuoteData } from '../../types/quoteData';
 
 /* Application files */
-import Quote from './Quote';
-import Drawer from '@material-ui/core/Drawer';
-import Backdrop from '@material-ui/core/Backdrop';
+import Quote from '../Quote/Quote';
+import { 
+    Drawer,
+    Backdrop
+} from '@material-ui/core';
 
 const useStyles = makeStyles(() =>
     createStyles({

@@ -6,11 +6,11 @@ import {
 } from '@material-ui/core/styles';
 
 /* Types */
-import { QuoteData } from '../types/quoteData';
+import { QuoteData } from '../../types/quoteData';
 
 /* Application files */
-import { deleteQuote } from '../actions/quotes';
-import Button from '@material-ui/core/Button';
+import { deleteQuote } from '../../actions/quotes';
+import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles(() =>
     createStyles({
