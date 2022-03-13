@@ -7,9 +7,11 @@ import {
 import { useDispatch } from 'react-redux';
 
 /* Application files */ 
-import { addQuote } from '../actions/quotes';
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import { addQuote } from '../../actions/quotes';
+import { 
+    TextField,
+    Button 
+} from '@material-ui/core';
 
 const useStyles = makeStyles((theme: Theme) => ({
     form: {

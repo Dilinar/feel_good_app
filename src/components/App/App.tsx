@@ -6,9 +6,9 @@ import {
 } from '@material-ui/core/styles';
 
 /* Application files */
-import AddQuote from './components/AddQuote';
-import DrawQuote from './components/DrawQuote';
-import QuotesDrawer from './components/QuotesDrawer';
+import AddQuote from '../AddQuote';
+import DrawQuote from '../DrawQuote';
+import QuotesDrawer from '../QuotesDrawer';
 import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles(() =>

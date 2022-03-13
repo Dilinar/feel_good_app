@@ -12,12 +12,12 @@ import {
 } from '@material-ui/core/styles';
 
 /* Types */
-import { ReduxState } from '../types/Redux';
+import { ReduxState } from '../../types/Redux';
 
 /* Application files */
-import Quote from './Quote';
-import { deleteQuote } from '../actions/quotes';
-import Button from '@material-ui/core/Button';
+import Quote from '../Quote';
+import { deleteQuote } from '../../actions/quotes';
+import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles(() =>
     createStyles({

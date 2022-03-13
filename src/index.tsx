@@ -1,16 +1,22 @@
 /* Librareis */
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore, Store } from 'redux';
+import { 
+    createStore, 
+    Store
+} from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { ThemeProvider, createTheme } from '@material-ui/core/styles';
+import { 
+    ThemeProvider, 
+    createTheme 
+} from '@material-ui/core/styles';
 import { deepPurple } from '@material-ui/core/colors';
 
 /* Types */
 import { ReduxState } from './types/Redux';
 
 /* Application files */
-import App from './App';
+import App from './components/App';
 import reducers from './reducers';
 
 const composer = composeWithDevTools({});
